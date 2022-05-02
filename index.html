@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Yulia</title>
+
+		<!--Google Fonts-->
+		<!--<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&family=Ubuntu:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!--CSS Stylesheets-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+
+		<!--Font Awesome-->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://kit.fontawesome.com/7ee5c9641c.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<section id="title">
+			<!-- Nav Bar -->
+			<div class="container-fluid colored-section">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<a class="navbar-brand" href="">
+						<i class="fab fa-pagelines" style="font-size: 30px"></i>
+						YD</a
+					>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#portfolio">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<!-- Title -->
+
+				<div class="row">
+					<div class="col-lg-6">
+						<h1>Junior Frontend Developer (React)</h1>
+
+						<a class="btn btn-lg btn-outline-light" href="assets/files/Resume (EN).pdf" target="blank">
+							Resume, Eng
+						</a>
+						<a
+							class="btn btn-lg btn-outline-light"
+							href="assets/files/Yulia Demakova - Lebenslauf.pdf"
+							target="blank"
+						>
+							Resume, Ger
+						</a>
+					</div>
+
+					<div class="col-lg-4">
+						<img id="photo" src="assets/images/Photo.jpg" alt="iphone-mockup" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Features -->
+
+		<section id="features">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-4 features">
+						<i class="fas features-icon fa-check-circle"></i>
+
+						<h3 class="heading-black">Team-Player</h3>
+						<p>Interested to bring best team-work results <br />Enthusiastic to collaborate with others</p>
+					</div>
+
+					<div class="col-lg-4 features">
+						<i class="fas features-icon fa-bullseye"></i>
+						<h3 class="heading-black">Target-oriented</h3>
+						<p>Aimed to reach the target in short time, with best quality</p>
+					</div>
+
+					<div class="col-lg-4 features">
+						<i class="fas features-icon fa-heart"></i>
+						<h3 class="heading-black">Passionate to work</h3>
+						<p>Motivated to deliver optimal results and learn new technologies</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<header class="text-center pb-5">
+							<h2>Short Introduction</h2>
+						</header>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+							<div class="blockquote-custom-icon bg-info shadow-sm">
+								<i class="fa fa-quote-left text-white"></i>
+							</div>
+							<p>
+								I am passionate about frontend and backend development, creating valuable user-friendly
+								apps and websites, delivering high-quality projects under time limits.
+							</p>
+							<hr class="hr" />
+							<p>
+								I’m a detailed oriented, self-motivated and responsible person, keen on gaining new
+								knowledge and accomplishing complex challenges.
+							</p>
+							<hr class="hr" />
+							<p>
+								My professional background is highlighted with successful procurement and marketing
+								experience in international teams of 10-50 people, with diverse responsibilities and
+								managing complex projects, which I am proud of.
+							</p>
+							<hr class="hr" />
+							<p>
+								Now my life takes a curve, changing the sphere of my interests to programming. It
+								fascinates me every day more and more. <br />Looking forward to creating useful and
+								breathtaking Web-Applications.
+							</p>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Portfolio -->
+
+		<section id="portfolio">
+			<div class="container-special">
+				<h2 id="portfolio-heading">Portfolio</h2>
+
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-3">
+						<div class="reference">
+							<img class="img-fluid" src="assets/images/Medpfors.jpg" alt="" />
+							<div class="description">
+								<h3>Medprofs App</h3>
+								<a
+									href="https://github.com/ydemakova/medprofs-server"
+									class="btn btn-lg btn-info"
+									target="blank"
+									>View code</a
+								>
+								<a href="https://medprofs.herokuapp.com/" target="blank" class="btn btn-lg btn-info"
+									>Try the App</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-3">
+						<div class="reference">
+							<img class="img-fluid" src="assets/images/Organizer.jpg" alt="" />
+							<div class="description">
+								<h3>Organizer App</h3>
+								<a
+									href="https://github.com/ydemakova/organizer"
+									class="btn btn-lg btn-info"
+									target="_blank"
+									>View code</a
+								>
+								<a
+									href="https://ydemakova.github.io/organizer/"
+									target="blank"
+									class="btn btn-lg btn-info"
+									>Try the App</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-3">
+						<div class="reference">
+							<img class="img-fluid" src="assets/images/Street Racer.jpg" alt="" />
+							<div class="description">
+								<h3>Street Racer Game</h3>
+								<a
+									href="https://github.com/ydemakova/street-racer"
+									target="_blank"
+									class="btn btn-lg btn-info"
+									>View code</a
+								>
+								<a
+									href="https://ydemakova.github.io/street-racer/"
+									target="_blank"
+									class="btn btn-lg btn-info"
+									>Play the Game</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Technologies-->
+
+		<section id="tech">
+			<div class="container-special">
+				<h2>Technologies</h2>
+				<p>Currently I am using the technologies, listed below</p>
+
+				<div class="row">
+					<div class="tech-column col-lg-4 col-md-6">
+						<div class="card">
+							<div class="card-header">
+								<h3 class="heading-black heading-bottom">Frontend</h3>
+							</div>
+							<div class="card-body">
+								<p>HTML5, CSS3, Bootstrap</p>
+								<p>JavaScript ES6, EJS</p>
+								<p>React</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="tech-column col-lg-4 col-md-6">
+						<div class="card">
+							<div class="card-header">
+								<h3 class="heading-black heading-bottom">Backend</h3>
+							</div>
+							<div class="card-body">
+								<p>Node.js</p>
+								<p>Express.js</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="tech-column col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<h3 class="heading-black heading-bottom">Additionally</h3>
+							</div>
+							<div class="card-body">
+								<p>Database: MongoDB, incl. Mongoose</p>
+								<p>Version Control: Git, GitHub</p>
+								<p>Deployment: GitHub, Heroku</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Form -->
+
+		<section id="contact">
+			<h1>Contact me</h1>
+
+			<form action="https://formsubmit.co/j.demakova@gmail.com" method="POST">
+				<!-- Name input -->
+				<div class="form-outline col-md-6">
+					<input
+						type="text"
+						name="name"
+						id="form4Example1"
+						class="form-control"
+						placeholder="Enter your name..."
+						required
+					/>
+				</div>
+
+				<!-- Email input -->
+				<div class="form-outline col-md-6">
+					<input
+						type="email"
+						name="email"
+						id="form4Example2"
+						class="form-control"
+						placeholder="Enter your email..."
+						required
+					/>
+				</div>
+
+				<!-- Message input -->
+				<div class="form-outline col-md-6">
+					<textarea
+						name="message"
+						class="form-control"
+						id="form4Example3"
+						rows="4"
+						placeholder="Enter your message..."
+						required
+					></textarea>
+				</div>
+
+				<!-- Submit button -->
+				<button class="btn btn-lg btn-outline-dark" type="submit">Send</button>
+			</form>
+		</section>
+		<!-- References-->
+
+		<section id="references">
+			<div class="container-special">
+				<h1>Background (Procurement & Marketing)</h1>
+				<img class="references-logo" src="assets/images/Thomas.png" alt="GDT" />
+				<img class="references-logo" src="assets/images/Nio.png" alt="NIO" />
+				<img class="references-logo" src="assets/images/Philip_Morris.png" alt="PMI" />
+				<img class="references-logo" src="assets/images/Rostelecom.png" alt="ROSTELECOM" />
+			</div>
+		</section>
+
+		<!-- Footer -->
+
+		<footer class="colored-section" id="footer">
+			<div class="footer-section">
+				<div class="footer-section-item">
+					<h4>LOCATION</h4>
+					<h5>Saarbrücken, Germany</h5>
+				</div>
+				<div class="footer-section-item">
+					<h4>AROUND THE WEB</h4>
+					<a href="https://www.linkedin.com/in/yulia-demakova-813a63227/" target="blank">
+						<i class="fab fa-linkedin-in"></i
+					></a>
+					<a href="https://github.com/ydemakova?tab=repositories" target="blank"
+						><i class="fab fa-github"></i
+					></a>
+					<a href="https://www.facebook.com/julia.demakova.7" target="blank"
+						><i class="fab fa-facebook"></i
+					></a>
+				</div>
+				<div class="footer-section-item">
+					<h4>AVAILABLE TO WORK</h4>
+					<h5>Saarbrücken, Germany</h5>
+					<h5>Remote</h5>
+				</div>
+			</div>
+			<p class="paragraph">Copyright ©</p>
+			<p class="paragraph" id="year"></p>
+			<p class="paragraph">Yulia Demakova</p>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+			integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+			integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+			crossorigin="anonymous"
+		></script>
+		<script src="date.js"></script>
+	</body>
+</html>
